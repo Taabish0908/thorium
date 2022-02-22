@@ -1,7 +1,14 @@
+//Module 1
 let url = 'https://www.google.com'
-function log(message){
-    console.log(message)
 
+function printMyMessage(message) {
+    console.log(message)    
 }
-module.exports.endpoint = url
-module.exports.printMessage = log
+
+function welcome() {
+    console.log('Welcome to my application. I am Taabish Masood Anwar and a part of FunctionUp Thorium cohort')
+}
+
+module.exports.url = url
+module.exports.printMessage = printMyMessage
+module.exports.printWelcomeMessage = welcome
