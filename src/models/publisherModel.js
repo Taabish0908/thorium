@@ -9,4 +9,4 @@ const publisherSchema = new mongoose.Schema( {
 
 }, { timestamps: true });
 
-module.exports = mongoose.model('newPublisher', publisherSchema)
+module.exports = mongoose.model('newPublisher1', publisherSchema)
