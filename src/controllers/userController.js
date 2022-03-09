@@ -84,6 +84,7 @@ const updateUser = async function (req, res) {
   res.send({ status: updatedUser, data: updatedUser });
 };
 
+
 const postMessage = async function (req, res) {
     let message = req.body.message
     // Check if the token is present
